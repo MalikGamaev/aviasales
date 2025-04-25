@@ -1,0 +1,37 @@
+.ticket_tabs label {
+	cursor: url('../../assets/Cursor.png'), none !important;
+	font-family: 'Open-Sans-B', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	color: #4A4A4A;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tabs_items {
+	position: relative;
+	cursor: url('../../assets/Cursor.png'), pointer !important;
+}
+
+@media (max-width: 751px) {
+	.ticket_tabs label {
+		font-size: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media(max-width: 476px) {
+	.ticket_tabs label {
+		font-size: 7px;
+		line-height: 18px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+}
+
+
+

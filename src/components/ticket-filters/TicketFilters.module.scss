@@ -1,0 +1,44 @@
+.ticket_filters {
+	color: #4A4A4A;
+	width: 232px;
+	height: 258px;
+	background: #fff;
+  	border-radius: 5px;
+  	box-shadow: 0px 2px 8px 0px #979797;
+  	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.ticket_filters__item {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.ticket_filters__items {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.ticket_filters__title {
+	font-family: 'Open-Sans-B', sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 751px) {
+	.ticket_filters {
+		gap: 10px;
+		height: 210px;
+	}
+	.ticket_filters__items {
+		gap: 10px;
+	}
+}
